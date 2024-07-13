@@ -2,4 +2,77 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container1 {
+  padding: 36px 0 0 131px;
+  background: #edf2f8;
+  min-height: 100vh;
+}
+.container1 nav b {
+  color: var(--black, #221e1e);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.183px;
+  text-transform: capitalize;
+  margin-right: 700px;
+}
+.container1 nav a {
+  margin-right: 40px;
+  color: var(--blue-link, #2c66b8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.container1 main {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+}
+.container1 main ul li {
+  list-style-type: none;
+}
+.container1 main ul li h2 {
+  color: var(--black, #221e1e);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+}
+.container1 main ul li p {
+  color: #221e1e;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.container1 main ul li button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  background: #2c66b8;
+}
+.container1 main ul li button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.container1 main img {
+  width: 60%;
 }/*# sourceMappingURL=index.css.map */

@@ -7,9 +7,13 @@
 .container4 {
   background-color: #29323f;
   min-height: 100vh;
-  padding: 0 50px;
+  display: flex;
+  /* padding: 0 50px; */
+  position: relative;
 }
 .container4 .helper-box {
+  padding-left: 200px;
+  padding-top: 50px;
   display: flex;
 }
 .container4 .helper-box b {
@@ -21,14 +25,16 @@
   line-height: normal;
   letter-spacing: 0.183px;
   text-transform: capitalize;
-  margin-top: 30px;
 }
 .container4 .helper-box ul {
   display: flex;
   flex-direction: column;
   margin-left: 150px;
 }
-.container4 .helper-box ul .title {
+.container4 .helper-box ul .title-4 {
+  margin-top: 40px;
+}
+.container4 .helper-box ul .title b {
   opacity: 0.5;
   color: var(--White, #fff);
   font-family: Inter;
@@ -59,14 +65,24 @@
   line-height: 32px;
   text-transform: capitalize;
 }
-.container4 .helper-box ul .subscribe input {
-  outline: none;
+.container4 .helper-box ul .subscribe {
+  margin-top: 20px;
+}
+.container4 .helper-box ul .subscribe form {
+  display: flex;
+  align-items: center;
+  width: 454px;
+  height: 50px;
   border-radius: 8px;
   border: 1px solid var(--White, #fff);
+}
+.container4 .helper-box ul .subscribe input {
+  width: 100%;
+  outline: none;
   background: none;
-  width: 200px;
-  height: 50px;
-  padding: 5px 10px;
+  border: none;
+  padding-left: 10px;
+  color: white;
 }
 .container4 .helper-box ul .subscribe button {
   background-color: #ffffff;
@@ -75,6 +91,28 @@
   border-radius: 3px;
   border: none;
 }
-.container4 .helper-box .finish {
+.container4 .finish {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+.container4 .finish hr {
+  width: 100%;
+}
+.container4 .finish .text-box {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
   display: flex;
-}/*# sourceMappingURL=index.css.map */
+  align-items: center;
+  justify-content: space-between;
+}
+.container4 .finish .text-box p {
+  color: var(--White, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}

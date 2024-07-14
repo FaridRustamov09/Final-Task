@@ -22,40 +22,31 @@
   display: flex;
 }
 .container3 .box ul {
+  padding: 20px;
   width: 484px;
   border-radius: 23px;
   background: #fff;
 }
-.container3 .box ul .blue {
-  color: var(--White, #fff);
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  border-radius: 8px;
-  background: var(--blue-link, #2c66b8);
-  list-style-type: none;
-}
 .container3 .box ul li {
   list-style-type: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
 }
 .container3 .box ul li h2 {
-  color: var(--black, #221e1e);
+  color: var(--black, #221E1E);
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 156px;
 }
 .container3 .box ul li p {
-  color: var(--black, #221e1e);
+  color: var(--black, #221E1E);
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 28px; /* 175% */
   text-transform: capitalize;
-  width: 400px;
-}/*# sourceMappingURL=index.css.map */
+}

@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .container2 h1 {
   color: var(--black, #221e1e);
   text-align: center;
@@ -23,9 +22,6 @@
   font-weight: 600;
   line-height: normal;
 }
-
-.container2 ul li h2 {
-
 .container2 ul {
   display: flex;
   align-items: center;
@@ -34,6 +30,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   margin-right: 50px;
@@ -45,7 +42,6 @@
   fill: linear-gradient(152deg, #479cbb 10.49%, #4e81ba 88.69%);
 }
 .container2 ul li b {
-
   color: var(--black, #221e1e);
   text-align: center;
   font-family: Inter;
@@ -64,4 +60,4 @@
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
-}/*# sourceMappingURL=index.css.map */
+}
